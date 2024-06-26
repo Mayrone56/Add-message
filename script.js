@@ -1,16 +1,3 @@
-// const newMessage = `
-//   <div class="row new-row">
-//     <img class="avatar" src="images/avatar-1.jpg" />
-//     <div class="text-container">
-//       <h6>May Rone</h6>
-//       <p>New message</p>
-//     </div>
-//     <span class="delete">✖</span>
-//   </div>
-// `;
-
-// document.querySelector("#msg-container").innerHTML += newMessage;
-
 function updateCountMessage() {
   const messagesCount = document.querySelectorAll("p").length;
   document.querySelector("#count").textContent = messagesCount;
